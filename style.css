@@ -9,6 +9,7 @@ body {
     --primary-color: #059669;
     --dark-color: #4B5563;
     --off-white: #F3F4F6;
+    --blue-color: #60A5FA;
 }
 
 /* Containers */
@@ -165,4 +166,18 @@ hr {
 .showcase-list {
     padding-bottom: 9rem;
     text-align: center;
+}
+
+ul .blog-heading {
+    text-decoration: none;
+    color: var(--blue-color);
+}
+
+.endings {
+    font-style: italic;
+    text-align: center;
+}
+
+.footer .footer-end {
+    padding: 0rem;
 }
