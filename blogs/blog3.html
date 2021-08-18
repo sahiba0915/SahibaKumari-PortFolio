@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sahiba's Portfolio || BLOG</title>
+    <link href="../style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- NavBar -->
+
+    <nav class="navigation container">
+        <div class="nav-brand">Sahiba's Web Space</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link" href="/index.html">Home</a>
+            </li>
+
+            <li class="list-item-inline">
+                <a class="link link-active" href="/blogs-listing-page.html">Blogs</a>
+            </li>
+
+        </ul>
+    </nav>
+
+    <!-- header -->
+
+    <header class="hero">
+        <img class="hero-img" src="../images/cloud-hero.svg">
+        <h1 class="hero-heading">Css <span style="color: #10B981">Animations</span></h1>
+    </header>
+
+    <!-- Blog-Writing -->
+    <!-- Section-1-->
+    <section class="section">
+        <div class="container container-center">
+            <h1>Intro</h1>
+            <p>
+                In this blog we are going to know about animations using css.<br>
+
+                First thing is, what is animation??
+
+                Let me help you with that, animation is something that let an element change it's style from one to
+                another gradually.
+            </p>
+            <p>Now what's this CSS Animation???🤔<br>
+
+                It's basically a technique by which we can change the appearance and behaviour of the elements in a web
+                page.
+
+                <ul class="list"><i>It has two parts:</i><br><br>
+                    <li>Css properties that describes the type of animation to be performed on any specific element.
+                    </li><br>
+                    <li>Keyframe rule that let that elements change it's behaviour or appearance with respect to the
+                        animation properties used.</li>
+                </ul>
+            </p>
+        </div>
+    </section>
+
+    <!-- Section-2-->
+    <section class="section">
+        <div class="container container-center">
+            <h1>Css Animation Properties</h1>
+            <p>Here I'll discuss the five properties that most commonly used animation properties:</p>
+
+            <p>1. <strong>animation-name:</strong> It basically describes the name through which our keyframes will
+                access the type of animation we want to use ona any specific element.
+                <p>eg: div {
+                    animation-name: change;
+                    }</p>
+            </p>
+
+            <p>2. <strong>animation-duration:</strong> It basically defines what will be the duration of the animation.
+                <p>eg: div {
+                    animation-iteration-count: 2;
+                    }</p>
+
+            </p>
+
+            <p>3. <strong>animation-timing-function:</strong> It specifies the speed of the animation.<br>
+                It can have following values.
+                <ul class="list">
+                    <li><b>ease</b>: In this the animation starts slowly and then fast and then ends slowly.</li>
+                    <li><b>ease-in</b>: In this the animation starts slowly.</li>
+                    <li><b>ease-out</b>: In this the animation ends slowly.</li>
+                    <li><b>ease-in-out</b>: In this the animation starts slowly and then also ends slowly.</li>
+                </ul>
+
+                <p>eg: div {
+                    animation-timing-function: ease-in-out;
+                    }</p>
+            </p>
+
+            <p>4. <strong>animation-delay:</strong> It specifies a delay before animation start using the keyframes.
+                <p>eg: div {
+                    animation-delay: 2s;
+                    }</p>
+            </p>
+
+            <p>5. <strong>animation-iteration-count:</strong> It basically defines that how many times a animation will
+                take place.
+                <p>eg: div {
+                    animation-iteration-count: 3;
+                    }</p>
+            </p>
+        </div>
+    </section>
+
+    <!-- Section-2-->
+    <section class="section">
+        <div class="container container-center">
+            <h1>@keyframes</h1>
+            <p>keyframes are those that helps to bind the css animations with an element.
+                <p>eg: <br>@keyframes change{<br>
+                    from {color: red;}<br>
+                    to{color: black;}<br>
+                    }<br><br>
+                    div {<br>
+                    color: red;<br>
+                    animation-name: change;<br>
+                    }
+                </p>
+                <p> In the above example you can see that the animation is being binded with the div element using the
+                    name "change" and with the help of keyframes the animation will take place i.e; the color of the
+                    font will change from red to black.</p>
+
+                <h4>So, this was all about the css animations which I had learned and tried to share with you all
+                    through this blog, there are lot more things about css animations which we can cover while learning
+                    css. </h4>
+        </div>
+    </section>
+
+
+
+
+
+    <h3 class="endings">That's all for this time. I'll meet you all with my next blog.</h3>
+
+
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="footer-heading">Social Presence</div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline">
+                <a class="link" href="https://github.com/sahiba0915">Github</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="https://twitter.com/Sahiba_Kumari">Twitter</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="https://www.linkedin.com/in/sahiba0915">LinkedIn</a>
+            </li>
+        </ul>
+        <small class="footer footer-end">© 2021, Made with ❤️ by Sahiba
+            Kumari.</small>
+        </div>
+    </footer>
+</body>
+
+</html>
