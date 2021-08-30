@@ -182,14 +182,14 @@ ul .blog-heading {
     padding: 0rem;
 }
 
-
-@media only screen and (max-width: 480px) {
-    .link-primary{
-        margin: auto;
+@media only screen and (max-width: 480px){
+    .link-primary, .link-secondary{
+        display: block;
     }
 
-    .link-secondary {
-        margin: auto;
-    }
-    }
+}
+    
+
+
+
     
