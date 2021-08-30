@@ -184,7 +184,12 @@ ul .blog-heading {
 
 
 @media only screen and (max-width: 480px) {
-    .container-center {
-        width: 100%;
+    .link-primary{
+        margin: auto;
+    }
+
+    .link-secondary {
+        margin: auto;
     }
     }
+    
