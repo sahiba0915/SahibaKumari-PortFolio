@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500;700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500;700&display=swap');
 body {
     font-family: 'Work Sans', sans-serif;
     margin: 0px;
@@ -181,3 +181,10 @@ ul .blog-heading {
 .footer .footer-end {
     padding: 0rem;
 }
+
+
+@media only screen and (max-width: 480px) {
+    .container-center {
+        width: 100%;
+    }
+    }
